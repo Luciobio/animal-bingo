@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  /* font-family: 'Concert One', cursive; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #01bcb5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

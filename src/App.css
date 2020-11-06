@@ -1,0 +1,123 @@
+.App {
+  margin-top: 3%;
+  text-align: center;
+  color: white;
+}
+
+.btn-danger {
+  border-color: white
+}
+
+button:focus {
+  outline: none
+}
+
+.btn {
+  margin: 2%
+}
+
+.btn-danger {
+  font-size: 150%
+}
+
+.instrumentTitle {
+  color: #01bcb5;
+  padding: 5%
+}
+
+.image {
+  max-width: 400px;
+}
+
+.instrumentCard {
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.startMsg{
+  color: #c82333;
+  padding: 4%
+}
+
+.buttonCont {
+  padding: 3%
+}
+
+.infoCont {
+  margin: 2%
+}
+
+.List {
+  padding-top: 2%
+}
+
+.table {
+  color:black;
+  background-color: white;
+  max-width: 300px;
+  margin:auto;
+}
+
+.borderless td, .borderless th {
+  border: none;
+}
+
+.listImg {
+  max-width: 50%;
+}
+
+tr {
+  display: flex;
+  align-items: baseline;
+}
+
+.cardTitle {
+font-size: 500%;
+}
+
+.animalCont {
+  margin: 0 auto;
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5 px;
+}
+
+.animalCell {
+  border: solid 2px black;
+  max-width: 90%;
+  max-height: 90%;
+  background-color: white;
+  margin: 4% 0 4% 0;
+  border-radius: 5%;
+}
+
+.animalName {
+  margin: 2.5%;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.animalImage {
+  max-width: 100%;
+  padding: 5%
+}
+
+@media (max-width: 800px) {
+  .instrumentCard {
+    width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .image {
+    max-width: 300px;
+  }
+}
+
